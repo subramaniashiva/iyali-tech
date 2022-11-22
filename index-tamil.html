@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" id="language_Change">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>இயலி</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">இயலி</a></h1>
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+
+          <li><a class="nav-link scrollto active" href="#hero">முகப்பு</a></li>
+          <li><a class="nav-link scrollto" href="#about">எங்களைப் பற்றி</a></li>
+          <li><a class="nav-link scrollto" href="#services">ஆக்கங்கள்</a></li>
+          <li><a class="nav-link scrollto" href="#contact">தொடர்புக்கு</a></li>
+          <div class="container">
+            <h1 id="description"></h1>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Language Option
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="./index-english.html">English</a></li>
+                <li><a href="./index.html">தமிழ்</a></li>
+              </ul>
+            </div>
+          </div>
+          <script>
+            function toggleLanguage(language) {
+              let description = document.getElementById("language_Change");
+              if (language === "Korean") {
+                description.innerHTML = "index.html";
+              }
+              else {
+                description.innerHTML = "index-english.html";
+              }
+            }
+          </script>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">உங்களுக்கான இயலியை இன்றே உருவாக்குங்கள் </h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented Developers making chatbots</h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>எங்களைப் பற்றி</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>ஆக்கங்கள்</h2>
+          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">மக்கள் நலன் பாட்</a></h4>
+              <p class="description">மாநிலம் முழுவதும் உள்ள திட்டங்களைப் பற்றி அறிய, பயனர்கள் தங்கள் பாலினம், வயது
+                மற்றும் வருமானம் பற்றிய விவரங்களைத் தேர்ந்தெடுக்க இது அனுமதிக்கிறது.இந்த மென்பொருள், தொட்டில் முதல்
+                கல்லறை வரை அரசாங்கத் திட்டங்களுக்கு உதவி கோருபவர்களுக்கு ஒரே ஒரு தீர்வாக வடிவமைக்கப்பட்டுள்ளது </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">குறள் பாட்</a></h4>
+              <p class="description">இக்கால இளைஞர்களிடம் சென்று திருக்குறளை நேரடியாக படிக்க சொல்ல முடியாது. அவர்களைக்
+                கவரும் வண்ணம் கேலி கிண்டல்களுடன், மீம் வழி நகைச்சுவையாகச் சொன்னால் தமிழை எளிதாக கொண்டு சேர்க்க முடியும்.
+                இதைக் கருத்தில் கொண்டுதான் இந்தக் குறள் பாட் ஐ வடிவமைத்துள்ளோம்.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">அன்றில் பாட்</a></h4>
+              <p class="description">
+                1) உலகத் தரத்திலான தளங்களும் செயலிகளும் ஏன் தமிழுக்கும் கொண்டு வரக்கூடாது?</p>
+              <p class="description"> 2) சங்க கால இலக்கியங்களை இன்றைய இளைஞர்களைக் கவரும் வண்ணம் கொண்டு சேர்க்க முடியுமா?
+              </p>
+              <p class="description"> இந்த இரு கேள்விகளுக்கும் விடையளிக்க முயல்வது தான் அன்றில் தளத்தின் நோக்கம். </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/img/more-services-002.jpg");' data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Makkal Nalan Bot</a></h5>
+                <p class="card-text">MakkalNalamBot allows users to select the details of their gender, age and income
+                  to learn about the schemes available across the State.</p>
+                <div class="read-more"><a
+                    href="https://www.newindianexpress.com/states/tamil-nadu/2022/jul/10/coming-soon-a-virtual-assistant-makkalnalambot-for-info-ongovernment-schemes-2474843.html"><i
+                      class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/img/more-services-02.jpg");' data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Kural Bot</a></h5>
+                <p class="card-text">குறள் பாட் ஒரு முகநூல் பக்கமாகும். இந்தப் பக்கத்திற்குச் சென்று குறள் எண்ணைக்
+                  கொடுத்தால், குறளும் அதற்கான விளக்கமும், அதிகாரமும் விடையாக வரும். மேலும் அறம், பொருள் அல்லது இன்பம்
+                  என்று கூறினால் அந்தந்தப் பாலில் இருந்து குறட்பாக்களை இந்த இயலி எடுத்துக் கொடுக்கும்.</p>
+                <div class="read-more"><a href="https://sellinam.com/archives/1757"><i class="bi bi-arrow-right"></i>
+                    Read More</a></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/more-services-03.jpg");' data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Makkal Nalan Bot</a></h5>
+                <p class="card-text">Siva Subramanian, who is a UK-based chat-box designer, created a basic Telegram
+                  chatbot design with his two juniors.</p>
+                <div class="read-more"><a
+                    href=" https://www.newindianexpress.com/states/tamil-nadu/2022/jul/10/coming-soon-a-virtual-assistant-makkalnalambot-for-info-ongovernment-schemes-2474843.html"><i
+                      class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 andrill-dummy">
+            <div class="card" style='background-image: url("assets/img/andrill-02.jpg"); padding-left: 30px;'
+              data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Pale Treda</a></h5>
+                <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium
+                  voluptatem.</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End More Services Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>தொடர்புக்கு</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <h3>இயலி</h3>
+              <p>காலத்திற்கேற்ப நவீனமடைந்து கொண்டிருக்கும் தமிழை, நவீன உலகின் எல்லா துறைகளிலும் கொண்டு செல்வதும்,
+                வாடிக்கையாளர்களின் தேவைக்கேற்ப எளிய சாமர்த்தியம் மிக்க இயலிகளை உருவாக்கித் தருவதுமே எங்கள் நோக்கமாகும்.
+              </p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="info">
+              <div>
+                <i class="ri-map-pin-line"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div>
+                <i class="ri-mail-send-line"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="ri-phone-line"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="உங்கள் பெயர்" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="உங்கள் மின் அஞ்சல் முகவரி"
+                  required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="உரை சுருக்கம்"
+                  required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="செய்தி" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">உங்கள் செய்தி அனுப்பப் பட்டது. நன்றி!!</div>
+              </div>
+              <div class="text-center"><button type="submit">செய்தி அனுப்பு</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; <strong>இயலி</strong>. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
+            வடிவமைத்தவர் <a href="index.html">இயலி குழு</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">முகப்பு</a>
+            <a href="#about" class="scrollto">எங்களைப் பற்றி</a>
+            <a href="#">தனியுரிமைக் கொள்கை</a>
+            <a href="#">பயன்பாட்டு விதிமுறைகள்</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
